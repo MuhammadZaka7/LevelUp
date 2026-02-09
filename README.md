@@ -28,6 +28,22 @@ A REST API system that gamifies employee performance tracking using XP, levels, 
 └── Docker Container Management
 ```
 
+<<<<<<< HEAD
+=======
+Frontend (HTML/CSS/JS)
+    ↓
+Flask REST API (Python)
+    ↓
+PostgreSQL Database (Docker)
+```
+
+**Components:**
+- **Frontend Dashboard**: Live leaderboard with filtering and statistics
+- **Flask API**: 8 REST endpoints for employee/task management
+- **PostgreSQL**: Relational database with 3 tables
+- **Docker**: Containerized database layer
+
+>>>>>>> 56f9fe6 (Add dashboard screenshot)
 ## XP Calculation Formula
 ```
 XP Earned = Base XP × Quality Multiplier × Punctuality Multiplier
@@ -104,6 +120,23 @@ XP Earned = Base XP × Quality Multiplier × Punctuality Multiplier
 - **Containerization**: Docker
 - **Database Driver**: psycopg3
 
+<<<<<<< HEAD
+=======
+## Frontend Dashboard
+
+A clean, responsive web dashboard that displays:
+- Real-time leaderboard with rankings
+- Employee statistics (total employees, tasks, average XP)
+- Department filtering (All, Engineering, Sales, Marketing, Design)
+- Top 3 performers highlighted in gold/silver/bronze
+- Auto-refreshes every 30 seconds
+
+Access at: `http://localhost:8000` (when frontend server is running)
+
+### Screenshot
+![LevelUp Dashboard](screenshot.png)
+
+>>>>>>> 56f9fe6 (Add dashboard screenshot)
 ## Setup & Installation
 
 ### Prerequisites
@@ -138,7 +171,7 @@ python app.py
 
 API will be available at `http://localhost:5000`
 
-## 📝 Example Usage
+## Example Usage
 
 ### Create an Employee
 ```bash
@@ -203,6 +236,10 @@ curl http://localhost:5000/leaderboard
 ## Developer
 
 Built by **Muhammad Zaka** as part of a homelab project.
+ HEAD
+
+- Location: NY 
+56f9fe6 (Add dashboard screenshot)
 
 ## License
 
