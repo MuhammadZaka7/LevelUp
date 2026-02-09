@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Flask](https://img.shields.io/badge/Flask-3.1.2-green)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # LevelUp - Gamified Employee Performance Tracker
 
 A REST API system that gamifies employee performance tracking using XP, levels, and leaderboards. Built with Flask, PostgreSQL, and Docker.
