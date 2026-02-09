@@ -8,7 +8,7 @@
 
 A REST API system that gamifies employee performance tracking using XP, levels, and leaderboards. Built with Flask, PostgreSQL, and Docker.
 
-## 🎮 Features
+## Features
 
 - **XP System**: Employees earn experience points based on task completion, quality scores, and punctuality
 - **10-Level Progression**: From Rookie (Level 1) to Grandmaster (Level 10)
@@ -18,7 +18,7 @@ A REST API system that gamifies employee performance tracking using XP, levels, 
 - **Task History**: Track all completed tasks per employee
 - **Statistics Dashboard**: System-wide analytics and insights
 
-## 🏗️ Architecture
+## Architecture
 ```
 ├── Flask REST API (Python)
 ├── PostgreSQL Database (Dockerized)
@@ -28,7 +28,7 @@ A REST API system that gamifies employee performance tracking using XP, levels, 
 └── Docker Container Management
 ```
 
-## 📊 XP Calculation Formula
+## XP Calculation Formula
 ```
 XP Earned = Base XP × Quality Multiplier × Punctuality Multiplier
 
@@ -42,7 +42,7 @@ XP Earned = Base XP × Quality Multiplier × Punctuality Multiplier
 - Good task (4.0 quality, on-time): 10 × 1.6 × 1.5 = **24 XP**
 - Average task (3.0 quality, late): 10 × 1.2 × 1.0 = **12 XP**
 
-## 🎯 Level Progression
+## Level Progression
 
 | Level | XP Required | Rank Title    |
 |-------|-------------|---------------|
@@ -57,7 +57,7 @@ XP Earned = Base XP × Quality Multiplier × Punctuality Multiplier
 | 9     | 15,000      | Legend        |
 | 10    | 30,000      | Grandmaster   |
 
-## 🚀 API Endpoints
+## API Endpoints
 
 ### Employees
 
@@ -97,14 +97,14 @@ XP Earned = Base XP × Quality Multiplier × Punctuality Multiplier
 **GET /stats**
 - System overview: total employees, tasks completed, averages, top performer, department breakdown
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Flask 3.1.2 (Python)
 - **Database**: PostgreSQL 15
 - **Containerization**: Docker
 - **Database Driver**: psycopg3
 
-## 📦 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Docker
@@ -182,14 +182,14 @@ Response:
 curl http://localhost:5000/leaderboard
 ```
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Businesses**: Track employee performance with engaging gamification
 - **Teams**: Foster healthy competition and motivation
 - **Managers**: Data-driven insights into team productivity
 - **HR**: Objective performance metrics for reviews
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Achievements & Badges system
 - [ ] Streak tracking (consecutive days)
@@ -200,15 +200,11 @@ curl http://localhost:5000/leaderboard
 - [ ] Export reports (PDF/CSV)
 - [ ] Mobile app integration
 
-## 👨‍💻 Developer
+## Developer
 
-Built by **[Your Name]** as part of a homelab project.
+Built by **Muhammad Zaka** as part of a homelab project.
 
-- Location: Elmont, New York
-- Certifications: Network+ (in progress), Security+ (planned)
-- Other projects: Palo Alto Network Security Fundamentals, Python (Scrimba), TryHackMe Cybersecurity 101
-
-## 📄 License
+## License
 
 This project is open source and available for educational purposes.
 
