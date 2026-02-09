@@ -3,8 +3,10 @@ import psycopg
 from psycopg.rows import dict_row
 from config import Config
 from datetime import datetime
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
 # Database connection function
